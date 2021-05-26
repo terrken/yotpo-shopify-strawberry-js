@@ -1,0 +1,15 @@
+<script> let shopifyProductID = {{product.id}}; </script>
+
+<section ng-app="strawberry">
+  <div ng-controller="main">
+    <section id="main-yotpo-widget"></section>
+  </div>
+
+  <!-- Including strawberry.js -->
+  {{ 'strawberry.js' | asset_url | script_tag }}
+
+  <!-- This is where you design your widget using Angular -->
+  <script id="yotpo-widget.htm" type="text/ng-template">
+
+  </script>
+</section>
